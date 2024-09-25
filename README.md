@@ -8,11 +8,17 @@ Welcome to Tennis Pong, a fun and interactive tennis game inspired by the classi
 
 Customizable Players: Input the names and photos of the players in the setup screen.
 Dynamic Court Change: After every odd number of total games won, players swap sides with a cool 3-second countdown ⏳.
+
 Live Score Updates: The game features real-time score tracking for game, set, and match scores, just like a real tennis match!
+
 Point System: Tennis scoring system for games (00, 15, 30, 50, GAME).
+
 Double Faults: Players can commit double faults, penalizing them with a loss of points 😬.
+
 Sound Effects: Enjoy sound effects for hitting the ball, winning points, and audience reactions like cheers and boos 📢.
+
 Control Ball Speed: Adjust the speed of the ball dynamically using a range slider 🎛️.
+
 Match Summary: A detailed log of events with playful emojis 🎾🥇.
 
 ![image](https://github.com/user-attachments/assets/0f92681a-6978-43fd-86f8-9f4102d65b03)
