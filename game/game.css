@@ -1,0 +1,93 @@
+/* João Paulo de Avila */
+/* 178898 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; 
+}
+
+.scoreboard {
+    background-color: rgba(66, 9, 9, 0.7);
+    color: #fff;
+}
+
+.player-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.court-area {
+    background-color: #fff; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-image: url('../images/campo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#gameCanvas {
+    display: block;
+    background-color: rgba(39, 174, 96, 0.8);
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px #000;
+}
+
+.game-summary {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: #fff;
+}
+
+.game-summary h3 {
+    text-align: center;
+}
+
+#gameSummaryList {
+    max-height: 200px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#gameSummaryList li {
+    padding: 5px 0;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+.speed-control {
+    margin-top: 20px;
+}
+
+.speed-control label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.speed-control input[type="range"] {
+    width: 100%;
+}
+
+.court-change-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    z-index: 1000;
+    text-align: center;
+}
